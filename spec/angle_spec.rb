@@ -16,7 +16,7 @@ describe "#clock_angle(time)" do
   end
 
   it 'returns the correct angle between the clock hands representing 3:20' do
-    expect(clock_angle("3:20")).to eq(340)
+    expect(clock_angle("3:20")).to eq(20)
   end
 
   it 'returns the correct angle between the clock hands representing 8:30' do
